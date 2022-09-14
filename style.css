@@ -1,0 +1,25 @@
+/* universal style */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* heading style */
+
+.main-icon {
+  font-size: 40px;
+  font-weight: 600px;
+  color: #4a4a4a;
+}
+
+.navigation {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 27px;
+  color: #777777;
+}
+
+.btn-register {
+  width: 120px;
+  height: 50px;
+}

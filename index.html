@@ -5,8 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EdTech | Home of Devs</title>
+
+    <!-- bootstrap link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- external css file links -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <!-- Header section start form here -->
+    <section class="container">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <span class="navbar-brand mb-0 main-icon"> Pro Edu</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav navigation mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Success</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Register</a>
+                </li>
+              </ul>
+              <div></div>
+            </div>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-info btn-register" type="submit">
+                Register
+              </button>
+            </form>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <!-- for js functionalility  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
