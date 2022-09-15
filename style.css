@@ -23,3 +23,32 @@ body {
   width: 120px;
   height: 50px;
 }
+
+/* curosel style start here */
+
+.main-btn {
+  background-color: #289bde;
+  border: none;
+  width: 180px;
+  height: 56px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.caption-style {
+  bottom: 180px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.carousel-heading {
+  font-size: 65px;
+  font-weight: 600px;
+  line-height: 85px;
+}
+
+.curousel-para {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 30px;
+}
