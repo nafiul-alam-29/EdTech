@@ -131,3 +131,34 @@ body {
 .explore-paragraph {
   color: #777777;
 }
+
+/* ready to join start */
+.join-heading {
+  font-size: 45px;
+  color: #f4fafd;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.join-text {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #f4fafd;
+  text-align: justify;
+}
+.ready-to {
+  padding: 80px;
+  background-color: #289bde;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.btn-join {
+  background-color: white;
+  color: #289bde;
+  padding: 13px 33px;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+}
