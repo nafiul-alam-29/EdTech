@@ -178,3 +178,26 @@ body {
   font-weight: 400px;
   color: #777777;
 }
+
+.card-wrapper {
+  display: flex;
+}
+
+.student-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-color {
+  color: #f59e0b;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+
+.student-feed {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
