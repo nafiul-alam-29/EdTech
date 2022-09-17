@@ -219,3 +219,31 @@ body {
   font-weight: 400;
   color: #777777;
 }
+
+/* footer style start here */
+footer {
+  background-color: #289bde;
+  padding: 80px;
+  margin-top: 40px;
+}
+
+.social-media {
+  align-items: center;
+}
+
+.footer-heading {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #f4fafd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #f4fafd;
+}
+.icon-footer {
+  color: #f4fafd;
+}
